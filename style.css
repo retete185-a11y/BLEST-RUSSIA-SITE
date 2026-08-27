@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url("assets/background.jpg") center/cover fixed;
+    color: white;
+    text-align: center;
+}
+
+
+/* Главный экран */
+
+header {
+    min-height: 100vh;
+    padding-top: 80px;
+    background: rgba(0,0,0,0.65);
+}
+
+
+.logo {
+    width: 180px;
+}
+
+
+h1 {
+    font-size: 55px;
+    color: #168cff;
+    margin: 25px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+
+/* Кнопка */
+
+.button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 18px 45px;
+    background: #168cff;
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* Блоки */
+
+section {
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 600px;
+    background: rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+
+footer {
+    padding: 20px;
+    background: rgba(0,0,0,0.8);
+}
